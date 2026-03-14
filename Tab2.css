@@ -1,0 +1,151 @@
+
+.ooo{
+    border: 0px solid white;
+    pointer-events: none;
+
+}
+.ooo:hover{
+transform:none !important;
+box-shadow:none !important;
+background:transparent !important;
+}
+.tabela{
+
+border-collapse: separate;
+border-spacing: 6px;
+margin: 10px;
+padding: 10px;
+box-sizing: border-box;
+overflow: hidden;
+}
+.grupos td{
+   
+height:30px;
+text-align:center;
+font-weight:bold;
+background:#3c0372;
+}
+
+td{
+width:80px;
+height:80px;
+padding: 6px;
+vertical-align:top;
+line-height:1.1;
+border-spacing: 2px;
+border-radius: 10px;
+overflow: hidden;
+border:1px solid black;
+box-shadow: 0px 2px 4px rgba(0,0,0,0.25);
+transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.numero{
+font-size:10px;
+display:block;
+}
+
+.simbolo{
+font-size:20px;
+font-weight:bold;
+text-align:center;
+display:block;
+}
+
+.nome{
+font-size:12px;
+text-align:center;
+display:block;
+}
+
+.massa{
+font-size:9px;
+text-align:center;
+display:block;
+}
+
+
+
+.metal-alcalino{
+background: rgb(219, 111, 10);
+}
+
+.metal-alcalino-terroso{
+background:#ffe600;
+}
+
+.metal-transicao{
+background:#cf4ea4;
+}
+
+.semimetal{
+background:#57d89c;
+}
+
+.ametal{
+background:#26e626;
+}
+
+.halogenio{
+background:#41d4e7;
+}
+
+.gas-nobre{
+background:#3566ee;
+}
+
+.lantanideos{
+background-color: #8ca7f3;
+}
+
+.actinideos{
+background-color: #d17eac;
+}
+
+.outros-metais{
+background-color: rgb(17, 112, 116);
+}
+.legenda td{
+align-items: center;
+padding:10px;
+border:1px solid black;
+width:40px;
+height:20px;
+}
+
+.legenda td:nth-child(even){
+width:120px;
+}
+.legenda td:nth-child(odd){
+width:30px;
+height:30px;
+border-radius:6px;
+}
+
+td:hover{
+background-color: white;
+outline: 3px solid transparent;
+transform: scale(1.05);
+z-index: 2;
+position: relative;
+box-shadow: 0px 6px 12px rgba(0,0,0,0.35);
+}
+.legenda{
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+}
+.legenda td:hover{
+transform:none;
+filter:none;
+}
+.tabela td:hover{
+transform: scale(1.35);
+box-shadow:0px 10px 18px rgba(0,0,0,0.45);
+z-index:10;
+position:relative;
+}
+.grupos td:hover{
+box-shadow:0px 6px 12px rgba(0,0,0,0.4);
+transform: translateY(-2px);
+}
